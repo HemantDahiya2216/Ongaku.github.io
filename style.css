@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Patrick+Hand&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 78px;
+    background-color: black;
+    color:white;
+    
+}
+
+.brand img{
+    width: 63px;
+    border-radius: 500px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+nav ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom{
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    color: white;  
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container{
+    height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+    margin: 13px auto;
+    width: 95%;
+    border-radius: 12px;
+    padding: 25px;
+    background-image: url('bg.jpg');
+    
+}
+
+.icons{
+    margin-top: 14px;
+    
+}
+.icons i{
+    cursor:pointer;
+    padding: 0 14px;
+}
+
+#timebar{
+    width: 80vw;
+}
+
+.songitem img{
+height: 80px;    
+width: 120px;
+margin: 0 1px;
+border-radius: 30px;
+
+
+
+
+}
+
+.songitem{
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: 275px;
+    
+    background-color:white;
+    color: black;
+    width: 500px;
+    margin: 0 23px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 10px;
+    
+
+}
+
+.timestamp{
+    margin: 0 23px;
+    
+}
+.fa-solid{
+
+    cursor: pointer;
+}
+
+.songInfo {
+    width: 500px;
+    position: absolute;
+    left: 2vw;
+    
+    
+}
+.songInfo img{
+     opacity: 0;
+     transition:opacity 0.8s ease-in;
+
+
+}
+
+#gif{
+    position: relative;
+    
+    width: 55px;
+}
+
+#masterSongname{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
